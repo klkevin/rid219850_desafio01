@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+    
+}
+
+#menu-superior{
+    background-image: url(imagens/dundo-menu-superior.svg);
+    height: 400px;  
+    
+}
+
+#titulo-superior{
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+#texto-menu-superior{
+    margin-left: 50px;
+}
+
+#menu-informativo{
+  background-image: url(imagens/menu-informativo.svg);  
+  height: 230px;  
+}
+
+.div-3 {
+  display: flex;
+  gap: 70px; /* espaço entre as imagens */
+}
+.div-3 img {
+  width: 600px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+#formulario{
+    background-image: url(imagens/fundo-div4.svg);
+    height: 500px;
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin-top: 100px;
+}
+
+input{
+
+    width: 300px;
+    height: 50px;
+    background-color: #EAECE5;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color:#c07212;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
